@@ -1,0 +1,13 @@
+body {
+margin:0 20px;
+font-family: 'PT Sans', sans-serif;
+}
+
+label {
+    font-weight: bold;
+}
+
+.btn-group {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

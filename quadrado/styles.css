@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    transition: transform 0.5s;
+}
+.square:hover {
+    transform: translate(50px, 50px);
+}

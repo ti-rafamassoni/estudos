@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    width: 15px;
+    height: 19px;
+    border-radius: 3px;
+    border: 1px solid;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: ;
+    
+}
+
+#input {
+  margin-top: 15px;
+}

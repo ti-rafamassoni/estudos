@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0    
+}
+
+.container {
+    margin-left: 10px;
+}
+
+#container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.input {
+    display: flex;
+    margin-top: 15px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+#botao {
+    margin: 20px 0;
+    padding: 5px;
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Estudo POO</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <h1>Turma de Medicina Veterinária 04</h1>
+        </header>
+    <main>
+        <div class="title">
+            <h2>Alunos</h2>
+            <span>Lista de Alunos</span>
+        </div>
+        <div class="inputline">
+            <label for="inputNome">Nome</label>
+            <input type="text" id="inputNome" placeholder="Nome">
+        </div>
+        <div class="inputline">
+            <label for="inputNota">Nota 1</label>
+            <input type="text" id="inputNota1" placeholder="Nota 1">
+        </div>
+        <div class="inputline">
+            <label for="inputNota">Nota 2</label>
+            <input type="text" id="inputNota2" placeholder="Nota 2">
+        </div>
+        <div class="card">
+            <button onclick="aluno.salvar()">Salvar</button>
+            <button onclick="aluno.cancelar()">Cancelar</button>
+        </div>
+        <div class="content">
+            <table>
+                <thead>
+                    <th class="center">ID</th>
+                    <th>Nome</th>
+                    <th>Nota 1</th>
+                    <th>Nota 2</th>
+                    <th>Média</th>
+                    <th class="center">Ações</th>
+                </thead>
+                <tbody id="tbody">                    
+                </tbody>
+            </table>
+        </div> 
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>

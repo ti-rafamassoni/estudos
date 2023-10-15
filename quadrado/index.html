@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformações CSS</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function rotateSquare() {
+            const square = document.querySelector('.square');
+            square.style.transform = 'rotate(45deg)';
+        }
+        function scaleSquare() {
+            const square = document.querySelector('.square');
+            square.style.transform = 'scale(2)';
+        }
+        function skewSquare() {
+            const square = document.querySelector('.square');
+            square.style.transform = 'skewX(30deg)';
+        }
+        function skewSquare() {
+            const square = document.querySelector('.square');
+            square.style.transform = 'skewX(30deg)';
+        }
+        function combineTransforms() {
+            const square = document.querySelector('.square');
+            square.style.transform = 'translate(50px, 50px) rotate(45deg) scale(2) skewX(30deg)';
+        }
+    </script>
+    </script>
+</head>
+<body>
+    <div class="square"></div>
+    <button onclick="rotateSquare()">Girar Quadrado</button>
+    <button onclick="scaleSquare()">Aumentar Quadrado</button>
+    <button onclick="skewSquare()">Inclinar Quadrado</button>    
+    <button onclick="combineTransforms()">Combinar Transformações</button>
+</body>
+</body>
+</html>

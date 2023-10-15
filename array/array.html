@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-3">
+       <div class="row justify-content-md-center">
+            <h1>Lista de Compras</h1>
+            <div class="row mt-3 justify-content-md-left">
+                <div class="col-sm-7">
+                    <form name="plist-form">
+                        <div class="input-group">
+                            <label for="plist" class="input-group-text">Produto: </label>
+                            <input type="text" name="product" id="productItem" class="form-control">
+                            <input type="button" id="addP" value="Novo Produto" class="btn btn-primary">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <h2>Produtos</h2>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td><label for="filter" class="input-group-text">Filtrar:</label></td>
+                            <td><input class="form-control" type="text" id="filter"></td>
+                        </tr>
+                    </thead>
+                    <tbody id="table-body-prod">
+                        <tr>
+                            <td><button class="btn btn-info">&check;</button></td>
+                            <td>Descrição do Produto</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src='js/array.js'></script>
+</body>
+</html>

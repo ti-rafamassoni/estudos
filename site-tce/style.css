@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.home {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    
+}
+
+.header-direito {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-pesquisa {
+    border: none;
+    background-color: initial;
+    height: 4vh;
+    margin-left: 6px;
+}
+
+.search {
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(148, 148, 148);
+    height: 4vh;
+    padding: 10px;
+}
+
+.redes-sociais {
+    display: flex;
+    margin-left: 10px;   
+}
+
+.redes-sociais li {
+    margin-left: 4px
+}
+
+.menu-inicial a {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 6px;
+    background-color: rgb(181, 36, 36);
+    font-family: 'Lato', sans-serif;
+    color: white;
+    
+}
+
+.menu-inicial a:hover {
+    color: rgb(211, 140, 8);
+}
+
+.menu-inicial ul {
+    display: flex;
+}
+
+.menu-inicial li {
+    width: 100%;
+    text-align: center;
+    position: relative;   
+}
+
+.menu-inicial li:hover .dropdown li {
+    display: block;
+    top: 0px;
+    border-color: black;
+}
+
+.dropdown li {
+    display: none;
+    top: 0px;
+    width: 200px;
+    
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-left: 21px;
+    margin-top: -1px;
+    box-shadow: 2px 2px 2px rgb(163, 163, 163);
+    border-radius: 5px;
+    z-index: 9999;
+}
+
+.border-sup {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;    
+}
+
+.border-inf {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom: 1px;
+}
