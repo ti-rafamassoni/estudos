@@ -1,0 +1,39 @@
+Bola:
+
+Atributos - tamanho, cor, material.
+Métodos - rolar, quicar.
+
+const bola = { tamanho: 15, 
+		cor: "amarela", 
+		material: "plastico", 
+		function rolar() { 
+		console.log("A bola está rolando") 
+		},
+		function quicar () {
+		console.log("A bola está quicando")
+		}
+	      }
+
+Clima:
+
+Atributos - temperatura, umidade, velocidade do vento.
+Métodos - chover, esquentar/esfriar.
+
+const climaJoaoPessoa = { temperatura: 32,
+			  umidade: 80,
+			  velocidadeVento: 25,
+			  function chuva (umidade, temperatura) = {
+			  	if(umidade > 80 && temperatura > 28) {
+				console.log("Irá chover forte")
+				}
+			  	},
+			  function mudarTemperatura (umidade, velocidadeVento) = {
+			  	if(umidade > 80 && velocidadeVento > 50) {
+				console.log("A temperatura irá subir")
+			  	} else {
+				console.log("A temperatura irá baixar")
+				}
+			}
+			}
+
+
